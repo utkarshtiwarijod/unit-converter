@@ -1,0 +1,230 @@
+{
+  "name": "android_large_1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "H624BeYsm3chDwfUcrgMOU",
+    "node": "51:726",
+    "version": "5086785310",
+    "component-id": "7f09b694b51b118090232c432aa85f7842d9d125"
+  },
+  "default": "Android Large - 1",
+  "documentation": "screen 1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 2"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 3"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 4"
+      },
+      {
+        "type": "image",
+        "id": "image 1"
+      },
+      {
+        "type": "text",
+        "id": "Unit Converter"
+      }
+    ],
+    "modes": {
+      "Android Large - 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Ellipse 1",
+              "Ellipse 2",
+              "Ellipse 3",
+              "Ellipse 4",
+              "image 1",
+              "Unit Converter"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Ellipse 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "559.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "266.0"
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          },
+          {
+            "id": "Ellipse 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "337.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "483.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "348.0"
+              }
+            },
+            "vector-content": "ellipse_2.svg"
+          },
+          {
+            "id": "Ellipse 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "3.716259796576196"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "123.45798801467521"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "503.7558898925781"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.6219177246094"
+              }
+            },
+            "vector-content": "ellipse_3.svg"
+          },
+          {
+            "id": "Ellipse 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "410.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "vector-content": "ellipse_4.svg"
+          },
+          {
+            "id": "image 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "39.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "336.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "282.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "243.0"
+              }
+            },
+            "image-content": "image_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Unit Converter",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "201.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "263.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "146.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$Unit Converter text content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "38.619346618652344",
+            "line-height": "1.2102272558903102",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Unit Converter text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Android Large - 1",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      },
+      "parameters": {
+        "Unit Converter text content": "Unit\nConverter"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
